@@ -1,0 +1,497 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+
+}
+body{
+    min-height: 100vh;
+}
+.header{
+    background-image: url(./images/bg-hero-mobile.svg);
+    height: 37rem;
+    background-color: hsl(191, 89%, 96%);
+    font-family: 'Poppins', sans-serif;
+}
+
+.header .nav img{
+    width:35%;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+}
+
+.header .nav button{
+    padding: .7rem; 
+    border-radius: 2rem;
+    border: none;
+    background-color: white;
+    margin-left: 7rem;
+    font-weight: 600;
+}
+.header .text{
+    text-align: center;
+    margin-top: 2rem;
+}
+.header .text h2{
+    font-size: 1.9rem;
+    font-weight: 600;
+}
+.header .text p{
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 19px;
+}
+.header .text button{
+    margin-top: 1.4rem;
+    border-radius: 2rem;
+    padding: .5rem;
+    width: 16rem;
+    height: 3rem;
+    border:none;
+    background-color:hsl(322, 99%, 66%) ;
+    color: white;
+    font-weight: 600;
+}
+.header .text img{
+    justify-items: center;
+    width: 70%;
+    margin-top: 1rem;
+    
+    
+}
+.card-1{
+    margin: auto;
+    margin-top:2rem;
+    background-color:white;
+    width:21rem ;
+    height: 27rem;
+    border-radius: .5rem;
+    box-shadow: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow:0 10px 30px rgba(0,0,0,.2);
+    
+}
+.card-1 img{
+    width:74%;
+    margin-top: 1.5rem;
+    margin-left: 2.5rem;
+}
+.card-1 h2{
+    text-align: center;
+    margin-top:1.3rem;
+    color:hsl(203, 13%, 44%);
+}
+.card-1 p{
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.4;
+    color:hsl(205, 7%, 65%);
+    margin-top:.7rem;
+}
+
+.card-2{
+  margin: auto;
+    margin-top:2rem;
+    background-color:white;
+    width:21rem ;
+    height: 27rem;
+    border-radius: .5rem;
+    box-shadow: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow:0 10px 30px rgba(0,0,0,.2);
+    
+}
+.card-2 img{
+    width:74%;
+    margin-top: 1.5rem;
+    margin-left: 2.5rem;
+}
+.card-2 h2{
+    text-align: center;
+    margin-top:1.3rem;
+    color:hsl(203, 13%, 44%);
+}
+.card-2 p{
+    text-align: center;
+    font-size: 19.3px;
+    line-height: 1.3;
+    color:hsl(205, 7%, 65%);
+    margin-top:1.5rem;
+    
+}
+
+.card-3{
+    margin: auto;
+      margin-top:2rem;
+      background-color:white;
+      width:21rem ;
+      height: 28rem;
+      border-radius: .5rem;
+      box-shadow: 2rem;
+      font-family: 'Open Sans', sans-serif;
+      box-shadow:0 10px 30px rgba(0,0,0,.2);
+      
+  }
+
+  .card-3 img{
+    width:74%;
+    margin-top: 1.5rem;
+    margin-left: 2.5rem;
+}
+.card-3 h2{
+    text-align: center;
+    margin-top:1.3rem;
+    color:hsl(203, 13%, 44%);
+}
+.card-3 p{
+    text-align: center;
+    color:hsl(205, 7%, 65%);
+    margin-top:1.5rem;
+    font-size:1.3rem;
+    
+}
+.content{
+    margin: auto;
+    margin-top:5rem;
+    background-color:white;
+    width:21rem ;
+   height:10rem;
+    border-radius: .7rem;
+    box-shadow: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow:0 10px 30px rgba(0,0,0,.2);
+    position: relative;
+    
+}
+.content h2{
+    color:hsl(203, 13%, 44%);
+    font-size: 16px;
+    text-align: center;
+    padding:2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.content button{
+    background-color:hsl(322, 99%, 66%) ;
+    border:none;
+    padding:.7rem;
+    border-radius: 2rem;
+    color:#fff;
+    margin-left: 4rem;
+    width:13rem;
+    
+    
+}
+
+.foot{
+    background-color:hsl(192, 100%, 9%) ;
+    margin-top: -3rem;
+    height: 39rem;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.foot .svg{
+    padding-top: 4rem;
+    padding-left: 2rem;
+    width:10%;
+}
+.foot .text-2{
+    margin-top: 1.5rem;
+
+}
+.foot .text-2 p{
+    font-size: 15px;
+    padding: 2rem 4rem 3rem  2rem;
+    text-align:left;
+
+
+    
+}
+.foot span{
+    margin-left:2rem;
+    line-height: 2;
+    margin-right: 1rem;
+    
+
+}
+.foot  ul {
+    list-style: none;
+}
+.foot .nested{
+     margin-left:2rem;
+     margin-top:1rem;
+     line-height: 1.6;
+}
+.foot .last{
+    margin-left: 2rem;
+    margin-top: 3rem;
+    font-size: 14px;
+}
+
+
+@media screen  and (min-width:900px){
+    body{
+        height: 100vh;
+    }
+    .header{
+       height: 40rem;
+       font-family: 'Poppins', sans-serif;
+    }
+    .header .nav img{
+        width:15%;
+        margin-top: 2.4rem;
+        margin-left: 4rem;
+    }
+    
+    .header .nav button{
+        padding: .7rem; 
+        border-radius: 2rem;
+        border: none;
+        background-color: white;
+        margin-left:60rem;
+        font-weight: 600;
+        width:10rem;
+        box-shadow: 2rem;
+    }
+    .header .text{
+        margin-top: 7rem;
+        text-align: left;
+    }
+    .header .text h2{
+        font-size: 1.9rem;
+        font-weight: 600;
+        padding:2rem 68rem 3rem 3rem;
+        
+    }
+    .header .text p{
+        margin-top: -3rem;
+        font-size: 14px;
+        padding:2rem 65rem 3rem 3rem;
+    }
+    .header .text button{
+        margin-top: 1.4rem;
+        border-radius: 2rem;
+        padding: .5rem;
+        width: 16rem;
+        height: 3rem;
+        border:none;
+        margin-left: 3rem;
+        background-color:hsl(322, 99%, 66%) ;
+        color: white;
+        font-weight: 600;
+    }
+    .header .text img{
+        width: 40%;
+        margin-top: -22rem;
+        margin-left: 49rem;
+        
+            
+        
+    }
+    /* main content */
+    .card-1{
+        margin: auto;
+        margin-top:3rem;
+        background-color:white;
+        width:70rem ;
+        height: 25rem;
+        border-radius: .5rem;
+        box-shadow: 2rem;
+        font-family: 'Open Sans', sans-serif;
+        box-shadow:0 10px 30px rgba(0,0,0,.2);
+        
+    }
+    .card-1 img{
+        width:33%;
+        margin-top: 2rem;
+        margin-right: 3rem;
+        float:right;
+    
+    }
+    
+    .card-1 .text-3{
+        padding:6rem 40rem 5rem 4rem;
+    }
+    .card-1 h2{
+        text-align:left;
+        color:hsl(203, 13%, 44%);
+        margin-right: 2rem;
+    
+    }
+    .card-1 p{
+        text-align: left;
+        font-size: 16px;
+        line-height: 1.4;
+        color:hsl(205, 7%, 65%);
+        margin-top:.7rem;
+        
+        
+    }
+    .card-2{
+        margin: auto;
+          margin-top:3rem;
+          background-color:white;
+          width:70rem ;
+          height: 25rem;
+          border-radius: .5rem;
+          box-shadow: 2rem;
+          font-family: 'Open Sans', sans-serif;
+          box-shadow:0 10px 30px rgba(0,0,0,.2);
+          
+      }
+      .card-2 img{
+          width:35%;
+          margin-top: 3rem;
+          margin-left: 3rem;
+      }
+      .card-2 .text-4{
+        padding:6rem 3rem 5rem 40rem;
+        margin-top: -20rem;
+    }
+      .card-2 h2{
+          text-align:left;
+          color:hsl(203, 13%, 44%);
+          margin-right: 2rem;
+      }
+      .card-2 p{
+          text-align: left;
+          font-size: 15px;
+          line-height: 1.3;
+          color:hsl(205, 7%, 65%);
+          margin-top:1rem;
+          margin-right: 1rem;
+
+    
+          
+      }
+      .card-3{
+        margin: auto;
+        margin-top:3rem;
+        background-color:white;
+        width:70rem ;
+        height: 25rem;
+        border-radius: .5rem;
+        box-shadow: 2rem;
+        font-family: 'Open Sans', sans-serif;
+        box-shadow:0 10px 30px rgba(0,0,0,.2);
+        
+    }
+    .card-3 img{
+        width:33%;
+        margin-top: 2rem;
+        margin-right: 3rem;
+        float:right;
+    
+    }
+    
+    .card-3 .text-5{
+        padding:6rem 40rem 5rem 4rem;
+    }
+    .card-3 h2{
+        text-align:left;
+        color:hsl(203, 13%, 44%);
+        margin-right: 2rem;
+    
+    }
+    .card-3 p{
+        text-align: left;
+        font-size: 16px;
+        line-height: 1.4;
+        color:hsl(205, 7%, 65%);
+        margin-top:.7rem;
+        
+        
+    }
+    .content{
+        margin: auto;
+        margin-top:7rem;
+        background-color:white;
+        width:40rem ;
+        height:15rem;
+        border-radius: .7rem;
+        box-shadow: 2rem;
+        font-family: 'Open Sans', sans-serif;
+        box-shadow:0 10px 30px rgba(0,0,0,.2);
+        position: relative;
+    }
+    .content h2{
+        color:hsl(203, 13%, 44%);
+        font-size: 20px;
+        text-align: center;
+        padding:2rem;
+        font-weight: 600;
+        font-family: 'Open Sans', sans-serif;
+        padding-top: 5rem;
+    }
+    .content button{
+        background-color:hsl(322, 99%, 66%) ;
+        border:none;
+        padding:1rem;
+        border-radius: 2rem;
+        color:#fff;
+        margin-left:13rem;
+        width:15rem;
+        
+        box-shadow:0 10px 30px rgba(0,0,0,.2);
+        font-family: 'Open Sans', sans-serif;
+        
+        
+    }
+
+
+
+    /* foot */
+    .foot{
+        background-color:hsl(192, 100%, 9%) ;
+        margin-top: -5rem;
+        height: 39rem;
+        color:white;
+        font-family: 'Open Sans', sans-serif;
+        
+    }
+    .foot .svg{
+        padding-top: 10rem;
+        padding-left: 4rem;
+    
+    }
+    .foot .text-2{
+        margin-top: 1.5rem;
+    
+    }
+    .foot .text-2 p{
+        font-size: 15px;
+        padding: 2rem 70rem 3rem  3rem;
+        
+        
+    
+    
+        
+    }
+    .foot span{
+        margin-left:2rem;
+        line-height: 2;
+        margin-right: 2rem;
+        
+    
+    }
+
+    .foot .text-1{
+        margin-left: 2rem;
+    }
+    .foot .nested{
+        display: flex;
+        padding-left: 35rem;
+        margin-top: -12rem;
+        line-height: 3;
+        gap:7rem;
+    
+    
+    }
+   .foot .last{
+        padding-left:67rem;
+        font-size: 14px;
+    }
+    
+}
